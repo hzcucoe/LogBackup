@@ -4,7 +4,7 @@ import (
 	"LogBackup/log"
 	ossClinet "LogBackup/oss"
 	"archive/zip"
-s	"github.com/CatchZeng/dingtalk/client"
+	"github.com/CatchZeng/dingtalk/client"
 	"github.com/CatchZeng/dingtalk/message"
 	"github.com/jinzhu/configor"
 	"github.com/robfig/cron/v3"
