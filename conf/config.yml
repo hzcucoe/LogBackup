@@ -1,0 +1,28 @@
+#上传驱动，暂时只支持oss
+upload_driver: oss
+
+#oss相关配置
+oss:
+  endpoint: endpoint
+  accesskeyid: accesskeyid
+  accesskeysecret: accesskeysecret
+  bucket: bucket
+  dir: logBuckUp
+
+#需要备份的路径
+backups:
+  - name: test
+    path: /test/
+  - name: test2
+    path: /test2/
+
+#备份周期(单位：天)
+backupdays: 7
+
+#钉钉提醒
+dingding:
+  enable: true
+  accesstoken: accesstoken
+  secret: secret
+
+#邮件配置
