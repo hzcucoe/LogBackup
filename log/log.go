@@ -39,8 +39,8 @@ func InitLog() {
 	})
 
 	// 获取 info、warn日志文件的io.Writer 抽象 getWriter() 在下方实现
-	infoWriter := getWriter( "logs/info.log")
-	warnWriter := getWriter( "logs/error.log")
+	infoWriter := getWriter("logs/info.log")
+	warnWriter := getWriter("logs/error.log")
 
 	// 最后创建具体的Logger
 	core := zapcore.NewTee(
